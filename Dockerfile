@@ -1,5 +1,6 @@
 # download Alpine docker image (alpine operating system WITHOUT any kernel BECAUSE containers use the kernel of the HOST machine)
 # that is binaries, libraries, etc...
+# docker automation
 FROM alpine
 # install PHP inside the container (similar to "apt install php")
 RUN apk add php
