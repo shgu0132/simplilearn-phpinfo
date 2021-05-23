@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: simplilearn-phpinfo-container
-        image: academiaonline/simplilearn-phpinfo:latest
+        image: shgu0132/simplilearn-phpinfo:latest
         command:
           - "php"
         args: 
